@@ -11,11 +11,11 @@ You will create a single web page for all these exercises, with a labeled headin
 Several of the katas will use the following sample variables, which you can copy and paste into your code:
 
 ```js
-const gotCitiesCSV = "King's Landing,Braavos,Volantis,Old Valyria,Free Cities,Qarth,Meereen";
+const gotCitiesCSV = "King's Landing,Braavos,Volantis,Old Valyria,Free Cities,Qarth,Meereen";
 ```
 
 ```js
-const lotrCitiesArray = ["Mordor","Gondor","Rohan","Beleriand","Mirkwood","Dead Marshes","Rhun","Harad"];
+const lotrCitiesArray = ["Mordor","Gondor","Rohan","Beleriand","Mirkwood","Dead Marshes","Rhun","Harad"];
 ```
 
 ```js
