@@ -10,7 +10,7 @@ followed by your solution. **All outputs for the individual katas need to be dis
 methods.** After appending the output of your function to the page, each function should use the 'return' statement to return its output.
 
 Hint: when displaying an array, use `JSON.stringify()` to 'prettify' the output. For example, lets say you use `document.createElement()` 
-and store it into a variable called `newElement`.  To display _`lotrCitiesArray`_ on this element, you can call:
+and store it into a variable called `newElement`.  To display `lotrCitiesArray` on this element, you can call:
 
 `newElement.textContent = JSON.stringify(lotrCitiesArray);`
 
