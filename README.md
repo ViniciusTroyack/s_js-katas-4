@@ -51,6 +51,13 @@ For this assessment, you will have access to testing tools as you work.  If you 
 This will install the testing npm package.
 3. While in the same directory as your `katas4.js` file, run the terminal command `kenzie-test katas4`.  You will receive instant feedback in your terminal.
 
+# Requirements #
+
+1. Each function must display an output on a web page.
+2. Each function must return a value
+3. Each function must be named `kata1`, `kata2`, etc. corresponding with each kata.
+4. Your file must be named `katas4.js`
+5. You will submit your Project ID #, located right below your project name.
 
 ### Part 1: Katas
 1.  Write a function that returns an array with the cities in 'gotCitiesCSV'.  Remember to also append the results to the page.
