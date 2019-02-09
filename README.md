@@ -53,7 +53,7 @@ const bestThing = "The best thing about a boolean is even if you are wrong you a
 
 For this assessment, you will have access to testing tools as you work.  If you would like to test your work as you go, follow these instructions:
 
-1. Make a directory called `katas4` and create a JS file in it called `katas4.js`  When completing the katas, name each function `kata1()`, `kata2()`, and so on.  It is important to follow these naming instructions, or the testing tools will not work, and you will not receive points.
+1. Make a directory called `katas4` and create a JS file in it called `katas4.js`  When writing your function for each kata, name each one `function kata1()`, `function kata2()`, and so on.  It is important to follow these naming instructions, or the testing tools will not work, and you will not receive points.
 2. From your terminal, run the command `brew install node`. Verify the install completed by running `node --version` (You should see something like `v8.12.0` or similar), then `npm --version` (You should see something like `6.4.1` or similar)
 3. Again from your terminal, run the command `npm install --global git+https://github.com/jragard/kenzie-testing`
 4. You can test the functions in your katas4.js file by navigating to the katas4 directory that holds your file.  When you are in the same directory as your `katas4.js` file, run the terminal command `kenzie-test katas4`.  You will receive instant feedback in your terminal.
