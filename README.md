@@ -41,7 +41,7 @@ const lotrCitiesArray = ["Mordor","Gondor","Rohan","Beleriand","Mirkwood","Dead 
 ```js
 const bestThing = "The best thing about a boolean is even if you are wrong you are only off by a bit"
 ```
-**Testing**
+# Testing #
 
 For this assessment, you will have access to testing tools as you work.  If you would like to test your work as you go, follow these instructions:
 
