@@ -58,6 +58,7 @@ This will install the testing npm package.
 3. Each function must be named `kata1`, `kata2`, etc. corresponding with each kata.
 4. Your file must be named `katas4.js`
 5. You will submit your Project ID #, located right below your project name.
+![](project_id.png)
 
 ### Part 1: Katas
 1.  Write a function that returns an array with the cities in 'gotCitiesCSV'.  Remember to also append the results to the page.
