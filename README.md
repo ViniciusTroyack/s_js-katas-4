@@ -45,19 +45,19 @@ const bestThing = "The best thing about a boolean is even if you are wrong you a
 
 For this assessment, you will have access to testing tools as you work.  If you would like to test your work as you go, follow these instructions:
 
-1. Make sure to name your file `katas4.js`.  Also, name each function `kata1()`, `kata2()`, and so on.  If you do not follow these instructions, the testing tools will not work.
-2. From your command line shell, run 
-`npm install --global git+https://github.com/jragard/kenzie-testing`
-This will install the testing npm package.
-3. While in the same directory as your `katas4.js` file, run the terminal command `kenzie-test katas4`.  You will receive instant feedback in your terminal.
+1. Make a directory called `katas4` and create a JS file in it called `katas4.js`  When completing the katas, name each function `kata1()`, `kata2()`, and so on.  It is important to follow these naming instructions, or the testing tools will not work, and you will not receive points.
+2. From your terminal, run the command `brew install node`. Verify the install completed by running `node --version` (You should see something like `v8.12.0` or similar), then `npm --version` (You should see something like `6.4.1` or similar)
+3. Again from your terminal, run the command `npm install --global git+https://github.com/jragard/kenzie-testing`
+4. You can test the functions in your katas4.js file by navigating to the katas4 directory that holds your file.  When you are in the same directory as your `katas4.js` file, run the terminal command `kenzie-test katas4`.  You will receive instant feedback in your terminal.
 
 # Requirements #
 
 1. Each function must display an output on a web page.
 2. Each function must return a value
 3. Each function must be named `kata1`, `kata2`, etc. corresponding with each kata.
-4. Your file must be named `katas4.js`
-5. You will submit your Project ID #, located right below your project name. (See Below)
+4. Your file must be named `katas4.js`, and live in a directory called `katas4`
+5. Your Gitlab project must be shared with the KA_SE5 account with "Reporter" as role permission.
+5. You will submit your Gitlab Project ID # in Canvas, located right below your project name. (See Below) You can copy/paste it.
 
 
 ![](project_id.png)
