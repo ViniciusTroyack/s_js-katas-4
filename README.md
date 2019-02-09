@@ -51,7 +51,7 @@ const bestThing = "The best thing about a boolean is even if you are wrong you a
 ```
 # Testing #
 
-For this assessment, you will have access to testing tools as you work.  If you would like to test your work as you go, follow these instructions:
+For this assessment, you will have access to testing tools as you work.  To test your work as you go, follow these instructions:
 
 1. Make a directory called `katas4` and create a JS file in it called `katas4.js`  When writing your function for each kata, name each one `function kata1()`, `function kata2()`, and so on.  It is important to follow these naming instructions, or the testing tools will not work, and you will not receive points.
 2. From your terminal, run the command `brew install node`. Verify the install completed by running `node --version` (You should see something like `v8.12.0` or similar), then `npm --version` (You should see something like `6.4.1` or similar)
