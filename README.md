@@ -33,7 +33,7 @@ Don't forget to call your function after you define it!
 
 `kata1();`
 
-It might be beneficial to write a helper function to call within each kata, which could be responsible for taking care of creating new 
+It might be beneficial to write a helper function that can be called within each kata function, which could be responsible for taking care of creating new 
 elements, assigning text/content to the new elements, and then appending the new elements to the page.  However, this is not required.
 
 Several of the katas will use the following sample variables, which you can copy and paste into your code:
