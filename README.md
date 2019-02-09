@@ -3,7 +3,7 @@
 ### Overview ###
 
 A [kata](https://en.wikipedia.org/wiki/Kata_(programming)) is an individual exercise where you practice a programming skill through repetition.
-Today you will practice using Javascript loops, conditionals, expressions, and arrays through a series of katas.
+You will use the katas in this assessment to practice writing Javascript functions that use loops, conditionals, expressions, and arrays.
 
 You will create a single web page to display the output from each of your functions, with a labeled heading for each individual exercise 
 followed by your solution. **All outputs for the individual katas need to be displayed using `document.createElement()` and associated 
@@ -17,16 +17,24 @@ and store it into a variable called `newElement`.  To display _`lotrCitiesArray`
 **Example**
 
 ```
+    let header = document.createElement("div");
+    header.textContent = "Kata 1";
+    document.body.appendChild(header);
+    
     function kata1() {
-        let newElement = document.createElement();
+        let newElement = document.createElement("div");
         newElement.textContent = JSON.stringify(lotrCitiesArray);
         document.body.appendChild(newElement)
 
         return lotrCitiesArray; // Don't forget to return your output!
     }
 ```
+Don't forget to call your function after you define it!
+
+`kata1();`
+
 It might be beneficial to write a helper function to call within each kata, which could be responsible for taking care of creating new 
-elements, appending text/content to the new elements, and then appending the new elements to the page.  However, this is not required.
+elements, assigning text/content to the new elements, and then appending the new elements to the page.  However, this is not required.
 
 Several of the katas will use the following sample variables, which you can copy and paste into your code:
 
