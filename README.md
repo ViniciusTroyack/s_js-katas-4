@@ -60,10 +60,10 @@ For this assessment, you will have access to testing tools as you work.  To test
 
 # Requirements #
 
-1. Each function must display an output on a web page.
-2. Each function must return a value
-3. Each function must be named `kata1`, `kata2`, etc. corresponding with each kata.
-4. Your file must be named `katas4.js`, and live in a directory called `katas4`
+1. Each function must display an output on a page.
+2. Each function must return a value.
+3. Each function must be named `kata1`, `kata2`, and so on.
+4. Your file must be named `katas4.js`, and live in a directory called `katas4`.
 5. Your Gitlab project must be shared with the KA_SE5 account with "Reporter" as role permission.
 5. You will submit your Gitlab Project ID # in Canvas, located right below your project name. (See Below) You can copy/paste it.
 
