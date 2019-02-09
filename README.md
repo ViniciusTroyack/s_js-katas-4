@@ -2,7 +2,7 @@
 
 ### Overview ###
 
-A [kata](https://en.wikipedia.org/wiki/Kata_(programming)) is an individual exercise where you practice a programming skill through repetition. Today you will practice using JavaScript loops, conditionals, expressions and arrays through a series of katas.
+A [kata](https://en.wikipedia.org/wiki/Kata_(programming)) is an individual exercise where you practice a programming skill through repetition.
 Today you will practice using Javascript loops, conditionals, expressions, and arrays through a series of katas.
 
 You will create a single web page to display the output from each of your functions, with a labeled heading for each individual exercise 
