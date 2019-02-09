@@ -57,7 +57,9 @@ This will install the testing npm package.
 2. Each function must return a value
 3. Each function must be named `kata1`, `kata2`, etc. corresponding with each kata.
 4. Your file must be named `katas4.js`
-5. You will submit your Project ID #, located right below your project name.
+5. You will submit your Project ID #, located right below your project name. (See Below)
+
+
 ![](project_id.png)
 
 ### Part 1: Katas
