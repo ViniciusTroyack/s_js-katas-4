@@ -58,18 +58,6 @@ For this assessment, you will have access to testing tools as you work.  To test
 3. Again from your terminal, run the command `npm install --global git+https://github.com/jragard/kenzie-testing`
 4. You can test the functions in your katas4.js file by navigating to the katas4 directory that holds your file.  When you are in the same directory as your `katas4.js` file, run the terminal command `kenzie-test katas4`.  You will receive instant feedback in your terminal.  You can run these tests repeatedly as you complete katas to verify that your solutions are correct.
 
-# Requirements #
-
-1. Each function must display an output on a page.
-2. Each function must return a value.
-3. Each function must be named `kata1`, `kata2`, and so on.
-4. Your file must be named `katas4.js`, and live in a directory called `katas4`.
-5. Your Gitlab project must be shared with the KA_SE5 account with "Reporter" as role permission.
-5. You will submit your Gitlab Project ID # in Canvas, located right below your project name. (See Below) You can copy/paste it.
-
-
-![](project_id.png)
-
 # For Graders #
 
 For this assessment, students will submit their Gitlab Project ID #.  To grade:
@@ -111,3 +99,14 @@ For this assessment, students will submit their Gitlab Project ID #.  To grade:
 31.  Write a function that uses 'shift' to remove the first city from 'lotrCitiesArray' and returns the new array. Remember to also append the results to the page.
 32.  Write a function that uses 'unshift' to add back the city from 'lotrCitiesArray' that was removed in #31 to the front of the array and returns the new array. Remember to also append the results to the page.
 
+# Requirements #
+
+1. Each function must display an output on a page.
+2. Each function must return a value.
+3. Each function must be named `kata1`, `kata2`, and so on.
+4. Your file must be named `katas4.js`, and live in a directory called `katas4`.
+5. Your Gitlab project must be shared with the KA_SE5 account with "Reporter" as role permission.
+5. You will submit your Gitlab Project ID # in Canvas, located right below your project name. (See Below) You can copy/paste it.
+
+
+![](project_id.png)
