@@ -77,7 +77,7 @@ For this assessment, students will submit their Gitlab Project ID #.  To grade:
 1.  If you haven't already, run `npm install --global git+https://github.com/jragard/kenzie-testing` to install the testing package.
 2.  Run `kenzie-test katas4 -g <Project ID>`  The results will be displayed in your terminal.
 
-### Part 1: Katas
+### Katas
 1.  Write a function that returns an array with the cities in 'gotCitiesCSV'.  Remember to also append the results to the page.
 2.  Write a function that returns an array of words from the sentence in 'bestThing'. Remember to also append the results to the page.
 3.  Write a function that returns a string separated by semi-colons instead of commas from 'gotCitiesCSV'. Remember to also append the results to the page.
