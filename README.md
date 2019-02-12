@@ -104,9 +104,12 @@ For this assessment, students will submit their Gitlab Project ID #.  To grade:
 1. Each function must display an output on a page.
 2. Each function must return a value.
 3. Each function must be named `kata1`, `kata2`, and so on.
-4. Your file must be named `katas4.js`, and live in a directory called `katas4`.
-5. Your Gitlab project must be shared with the KA_SE5 account with "Reporter" as role permission.
-5. You will submit your Gitlab Project ID # in Canvas, located right below your project name. (See Below) You can copy/paste it.
+4. Your file must be named `katas4.js`
+
+### Submission ###
+
+Push your code into your GitLab repository and use the GitLab Pages feature to allow your site to be viewed directly. In Canvas, please add KA_SE5 as a member on your project with "Reporter" permission, and submit your gitlab pages url, **with your Project ID number included as a comment on your submission**.  Your Project ID number is located directly under your project name (see below).
+
 
 
 ![](project_id.png)
