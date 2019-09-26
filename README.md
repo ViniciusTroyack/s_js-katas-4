@@ -88,7 +88,8 @@ const bestThing = "The best thing about a boolean is even if you are wrong you a
 
 1. Each function must display an output on a page.
 2. Each function must return a value.
-3. Each function must be named `kata1`, `kata2`, and so on.
+3. Your repository should be named 'katas4'
+3. Each function must be named `kata1()`, `kata2()`, and so on.
 4. Your file must be named `katas4.js`
 
 ### Submission ###
