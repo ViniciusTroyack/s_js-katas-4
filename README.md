@@ -67,22 +67,12 @@ const bestThing = "The best thing about a boolean is even if you are wrong you a
 14.  Write a function that uses 'slice' to return a string with the characters between the 23rd and 38th position of 'bestThing' (i.e., 'boolean is even'). Remember to also append the results to the page.
 15.  Write a function that does the exact same thing as #13 but use the 'substring' method instead of 'slice'. Remember to also append the results to the page.
 16.  Write a function that does the exact same thing as #14 but use the 'substring' method instead of 'slice'. Remember to also append the results to the page.
-17.  Write a function that finds and returns the index of 'only' in 'bestThing'. Remember to also append the results to the page.
-18.  Write a function that finds and returns the index of the last word in 'bestThing'. Remember to also append the results to the page.
-19.  Write a function that finds and returns an array of all cities from 'gotCitiesCSV' that use double vowels ('aa', 'ee', etc.). Remember to also append the results to the page.
-20.  Write a function that finds and returns an array with all cities from 'lotrCitiesArray' that end with 'or'. Remember to also append the results to the page.
-21.  Write a function that finds and returns an array with all the words in 'bestThing' that start with a 'b'. Remember to also append the results to the page.
-22.  Write a function that returns 'Yes' or 'No' if 'lotrCitiesArray' includes 'Mirkwood'. Remember to also append the results to the page.
-23.  Write a function that returns 'Yes' or 'No' if 'lotrCitiesArray' includes 'Hollywood'. Remember to also append the results to the page.
-24.  Write a function that returns the index of 'Mirkwood' in 'lotrCitiesArray'. Remember to also append the results to the page.
-25.  Write a function that finds and returns the first city in 'lotrCitiesArray' that has more than one word. Remember to also append the results to the page.
-26.  Write a function that reverses the order of 'lotrCitiesArray' and returns the new array. Remember to also append the results to the page.
-27.  Write a function that sorts 'lotrCitiesArray' alphabetically and returns the new array. Remember to also append the results to the page.
-28.  Write a function that sorts 'lotrCitiesArray' by the number of characters in each city (i.e., shortest city names go first) and return the new array. Remember to also append the results to the page.
-29.  Write a function that uses 'pop' to remove the last city from 'lotrCitiesArray' and returns the new array. Remember to also append the results to the page.
-30.  Write a function that uses 'push' to add back the city from 'lotrCitiesArray' that was removed in #29 to the back of the array and returns the new array. Remember to also append the results to the page.
-31.  Write a function that uses 'shift' to remove the first city from 'lotrCitiesArray' and returns the new array. Remember to also append the results to the page.
-32.  Write a function that uses 'unshift' to add back the city from 'lotrCitiesArray' that was removed in #31 to the front of the array and returns the new array. Remember to also append the results to the page.
+17.  Write a function that uses 'pop' to remove the last city from 'lotrCitiesArray' and returns the new array. Remember to also append the results to the page.
+18.  Write a function that uses 'push' to add back the city from 'lotrCitiesArray' that was removed in #17 to the back of the array and returns the new array. Remember to also append the results to the page.
+19.  Write a function that uses 'shift' to remove the first city from 'lotrCitiesArray' and returns the new array. Remember to also append the results to the page.
+20.  Write a function that uses 'unshift' to add back the city from 'lotrCitiesArray' that was removed in #19 to the front of the array and returns the new array. Remember to also append the results to the page.
+
+
 
 # Requirements #
 
@@ -91,6 +81,24 @@ const bestThing = "The best thing about a boolean is even if you are wrong you a
 3. Your repository should be named 'katas4'
 3. Each function must be named `kata1()`, `kata2()`, and so on.
 4. Your file must be named `katas4.js`
+
+# Optional Bonus (6 pts) #
+21.  Write a function that finds and returns the index of 'only' in 'bestThing'. Remember to also append the results to the page.
+22.  Write a function that finds and returns the index of the last word in 'bestThing'. Remember to also append the results to the page.
+23.  Write a function that finds and returns an array of all cities from 'gotCitiesCSV' that use double vowels ('aa', 'ee', etc.). Remember to also append the results to the page.
+24.  Write a function that finds and returns an array with all cities from 'lotrCitiesArray' that end with 'or'. Remember to also append the results to the page.
+25.  Write a function that finds and returns an array with all the words in 'bestThing' that start with a 'b'. Remember to also append the results to the page.
+26.  Write a function that returns 'Yes' or 'No' if 'lotrCitiesArray' includes 'Mirkwood'. Remember to also append the results to the page.
+27.  Write a function that returns 'Yes' or 'No' if 'lotrCitiesArray' includes 'Hollywood'. Remember to also append the results to the page.
+28.  Write a function that returns the index of 'Mirkwood' in 'lotrCitiesArray'. Remember to also append the results to the page.
+29.  Write a function that finds and returns the first city in 'lotrCitiesArray' that has more than one word. Remember to also append the results to the page.
+30.  Write a function that reverses the order of 'lotrCitiesArray' and returns the new array. Remember to also append the results to the page.
+31.  Write a function that sorts 'lotrCitiesArray' alphabetically and returns the new array. Remember to also append the results to the page.
+32.  Write a function that sorts 'lotrCitiesArray' by the number of characters in each city (i.e., shortest city names go first) and return the new array. Remember to also append the results to the page.
+
+
+
+
 
 ### Submission ###
 
