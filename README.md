@@ -18,10 +18,10 @@ and store it into a variable called `newElement`.  To display `lotrCitiesArray` 
 
 ```
     let header = document.createElement("div");
-    header.textContent = "Kata 1";
+    header.textContent = "Kata 0";
     document.body.appendChild(header);
     
-    function kata1() {
+    function kata0() {
         let newElement = document.createElement("div");
         newElement.textContent = JSON.stringify(lotrCitiesArray);
         document.body.appendChild(newElement)
@@ -31,7 +31,7 @@ and store it into a variable called `newElement`.  To display `lotrCitiesArray` 
 ```
 Don't forget to call your function after you define it!
 
-`kata1();`
+`kata0();`
 
 It might be beneficial to write a helper function that can be called within each kata function, which could be responsible for taking care of creating new 
 elements, assigning text/content to the new elements, and then appending the new elements to the page.  However, this is not required.
