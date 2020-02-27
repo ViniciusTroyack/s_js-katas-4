@@ -38,17 +38,11 @@ Pode ser uma boa ideia escrever uma função auxiliar que é chamada de dentro d
 
 Vários destes katas usarão a seguinte amostra de variáveis, que você pode copiar e colar em seu código:
 
-```js
-const gotCitiesCSV = "King's Landing,Braavos,Volantis,Old Valyria,Free Cities,Qarth,Meereen";
-```
+`const gotCitiesCSV = "King's Landing,Braavos,Volantis,Old Valyria,Free Cities,Qarth,Meereen";`
 
-```js
-const lotrCitiesArray = ["Mordor","Gondor","Rohan","Beleriand","Mirkwood","Dead Marshes","Rhun","Harad"];
-```
+`const lotrCitiesArray = ["Mordor","Gondor","Rohan","Beleriand","Mirkwood","Dead Marshes","Rhun","Harad"];`
 
-```js
-const bestThing = "The best thing about a boolean is even if you are wrong you are only off by a bit";
-```
+`const bestThing = "The best thing about a boolean is even if you are wrong you are only off by a bit";`
 
 ### Katas
 
