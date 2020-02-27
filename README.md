@@ -1,42 +1,42 @@
-# Assessment: JavaScript Katas 4 #
+# Avaliação: Katas de JavaScript 4
 
-### Overview ###
+### Visão Geral
 
-A [kata](https://en.wikipedia.org/wiki/Kata_(programming)) is an individual exercise where you practice a programming skill through repetition.
-You will use the katas in this assessment to practice writing Javascript functions that use loops, conditionals, expressions, and arrays.
+Um [kata](https://en.wikipedia.org/wiki/Kata_(programming)) é um exercício individual onde você pratica uma habilidade de programação repetidamente. Você usará os katas nesta avaliação para praticar a escrita de funções Javascript que usam loops, condicionais, expressões e arrays.
 
-You will create a single web page to display the output from each of your functions, with a labeled heading for each individual exercise 
-followed by your solution. **All outputs for the individual katas need to be displayed using `document.createElement()` and associated 
-methods.** After appending the output of your function to the page, each function should use the 'return' statement to return its output.
+Você criará uma única página para exibir o resultado de cada uma de suas funções com um cabeçalho identificando cada exercício individual seguido de sua solução. **Todos os resultados dos katas individuais precisam ser exibidos usando `document.createElement()` e métodos associados.** Depois de adicionar o resultado da sua função à página, cada função deve usar a sentença 'return' para retornar seu resultado.
 
-Hint: when displaying an array, use `JSON.stringify()` to 'prettify' the output. For example, lets say you use `document.createElement()` 
-and store it into a variable called `newElement`.  To display `lotrCitiesArray` on this element, you can call:
+Dica: Ao exibir um array, use `JSON.stringify()` para 'embelezar' o resultado. Por exemplo, digamos que você usou `document.createElement()` e o armazenou em uma variável chamada `newElement`. Para exibir o `lotrCitiesArray` neste elemento, você pode chamar:
 
-`newElement.textContent = JSON.stringify(lotrCitiesArray);`
-
-**Example**
-
+```js
+newElement.textContent = JSON.stringify(lotrCitiesArray);
 ```
-    let header = document.createElement("div");
-    header.textContent = "Kata 0";
-    document.body.appendChild(header);
-    
-    function kata0() {
-        let newElement = document.createElement("div");
-        newElement.textContent = JSON.stringify(lotrCitiesArray);
-        document.body.appendChild(newElement)
 
-        return lotrCitiesArray; // Don't forget to return your output!
-    }
+**Exemplo**
+
+```js
+   let header = document.createElement("div");
+   header.textContent = "Kata 0";
+   document.body.appendChild(header);
+ 
+   function kata0() {
+       let newElement = document.createElement("div");
+       newElement.textContent = JSON.stringify(lotrCitiesArray);
+       document.body.appendChild(newElement)
+ 
+       return lotrCitiesArray; // Não esqueça de retornar a saída
+   }
+``` 
+
+Não se esqueça de chamar sua função depois de defini-la!
+
+```js
+kata0();
 ```
-Don't forget to call your function after you define it!
 
-`kata0();`
+Pode ser uma boa ideia escrever uma função auxiliar que é chamada de dentro de uma função kata, que, por sua vez, poderia ser responsável por cuidar da criação de novos elementos, atribuindo texto/conteúdo aos novos elementos e em seguida adicionando-os à página. Entretanto, isso não é necessário.
 
-It might be beneficial to write a helper function that can be called within each kata function, which could be responsible for taking care of creating new 
-elements, assigning text/content to the new elements, and then appending the new elements to the page.  However, this is not required.
-
-Several of the katas will use the following sample variables, which you can copy and paste into your code:
+Vários destes katas usarão a seguinte amostra de variáveis, que você pode copiar e colar em seu código:
 
 ```js
 const gotCitiesCSV = "King's Landing,Braavos,Volantis,Old Valyria,Free Cities,Qarth,Meereen";
@@ -51,56 +51,51 @@ const bestThing = "The best thing about a boolean is even if you are wrong you a
 ```
 
 ### Katas
-1.  Write a function that returns an array with the cities in 'gotCitiesCSV'.  Remember to also append the results to the page.
-2.  Write a function that returns an array of words from the sentence in 'bestThing'. Remember to also append the results to the page.
-3.  Write a function that returns a string separated by semi-colons instead of commas from 'gotCitiesCSV'. Remember to also append the results to the page.
-4.  Write a function that returns a CSV (comma-separated) string from the 'lotrCitiesArray'. Remember to also append the results to the page.
-5.  Write a function that returns an array with the first 5 cities in 'lotrCitiesArray'. Remember to also append the results to the page.
-6.  Write a function that returns an array with the last 5 cities in 'lotrCitiesArray'. Remember to also append the results to the page.
-7.  Write a function that returns an array with the 3rd to 5th city in 'lotrCitiesArray'. Remember to also append the results to the page.
-8.  Write a function that uses 'splice' to remove 'Rohan' from 'lotrCitiesArray' and returns the new modified 'lotrCitiesArray'. Remember to also append the results to the page.
-9.  Write a function that uses 'splice' to remove all cities after 'Dead Marshes' in 'lotrCitiesArray' and returns the new modified 'lotrCitiesArray'. Remember to also append the results to the page.
-10.  Write a function that uses 'splice' to add 'Rohan' back to 'lotrCitiesArray' right after 'Gondor' and returns the new modified 'lotrCitiesArray'. Remember to also append the results to the page.
-11.  Write a function that uses 'splice' to rename 'Dead Marshes' to 'Deadest Marshes' in 'lotrCitiesArray' and returns the new modified 'lotrCitiesArray'. Remember to also append the results to the page.
-12.  Write a function that uses 'slice' to return a string with the first 14 characters from 'bestThing'. Remember to also append the results to the page.
-13.  Write a function that uses 'slice' to return a string with the last 12 characters from 'bestThing'. Remember to also append the results to the page.
-14.  Write a function that uses 'slice' to return a string with the characters between the 23rd and 38th position of 'bestThing' (i.e., 'boolean is even'). Remember to also append the results to the page.
-15.  Write a function that does the exact same thing as #13 but use the 'substring' method instead of 'slice'. Remember to also append the results to the page.
-16.  Write a function that does the exact same thing as #14 but use the 'substring' method instead of 'slice'. Remember to also append the results to the page.
-17.  Write a function that uses 'pop' to remove the last city from 'lotrCitiesArray' and returns the new array. Remember to also append the results to the page.
-18.  Write a function that uses 'push' to add back the city from 'lotrCitiesArray' that was removed in #17 to the back of the array and returns the new array. Remember to also append the results to the page.
-19.  Write a function that uses 'shift' to remove the first city from 'lotrCitiesArray' and returns the new array. Remember to also append the results to the page.
-20.  Write a function that uses 'unshift' to add back the city from 'lotrCitiesArray' that was removed in #19 to the front of the array and returns the new array. Remember to also append the results to the page.
 
+1. Escreva uma função que retorna um array com as cidades em 'gotCitiesCSV'. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que retorna um array das palavras na frase contida em 'bestThing'. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que retorna uma string separada por ponto-e-vírgulas em vez das vírgulas de 'gotCitiesCSV'. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que retorne uma string CSV (separada por vírgulas) de 'lotrCitiesArray'. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que retorna um array com as 5 primeiras cidades de 'lotrCitiesArray'. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que retorna um array com as 5 últimas cidades de 'lotrCitiesArray'. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que retorna um array contendo da 3ª a 5ª cidades de 'lotrCitiesArray'. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que use 'splice' para remover 'Rohan' de 'lotrCitiesArray' e retorne o novo 'lotrCitiesArray' modificado. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que use 'splice' para remover todas as cidades depois de 'Dead Marshes' de 'lotrCitiesArray' e retorne o novo 'lotrCitiesArray' modificado. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que use 'splice' para adicionar 'Rohan' de volta ao 'lotrCitiesArray' logo depois de 'Gondor' e retorne o novo 'lotrCitiesArray' modificado. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que use 'splice' para renomear 'Dead Marshes' para 'Deadest Marshes' em 'lotrCitiesArray' e retorne o novo 'lotrCitiesArray' modificado. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que usa 'slice' para retornar uma string com os primeiros 14 caracteres de 'bestThing'.  Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que usa 'slice' para retornar uma string com os 12 últimos caracteres de 'bestThing'. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que usa 'slice' para retornar uma string com os caracteres entre as posições 23 e 38 de 'bestThing' (ou seja, 'booleano é par'). Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que faz exatamente a mesma coisa que a #13 mas use o método 'substring' em vez de 'slice'. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que faça exatamente a mesma coisa que o #14 mas use o método 'substring' em vez de 'slice'. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que use 'pop' para remover a última cidade de 'lotrCitiesArray e retorne o novo array. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que usa 'push' para adicionar de volta, no final do array, a cidade de 'lotrCitiesArray' que foi removida no #17 e retorne o novo array. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que usa 'shift' para remover a primeira cidade de 'lotrCitiesArray e retorne o novo array. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que use 'unshift' para adicionar de volta, no começo do array, a cidade de 'lotrCitiesArray' que foi removida no #19 e retorne o novo array. Lembre-se de também adicionar os resultados à página.
 
+# Requisitos
 
-# Requirements #
+1. Cada função deve exibir um resultado em uma página.
+1. Cada função deve retornar um valor.
+1. Seu repositório deve se chamar 'katas4'
+1. Cada função deve ter o nome `kata1()`, `kata2()` e assim por diante.
+1. Seu arquivo deve ter o nome `katas4.js`
 
-1. Each function must display an output on a page.
-2. Each function must return a value.
-3. Your repository should be named 'katas4'
-3. Each function must be named `kata1()`, `kata2()`, and so on.
-4. Your file must be named `katas4.js`
+# Bônus Opcional (6 pts)
 
-# Optional Bonus (6 pts) #
-21.  Write a function that finds and returns the index of 'only' in 'bestThing'. Remember to also append the results to the page.
-22.  Write a function that finds and returns the index of the last word in 'bestThing'. Remember to also append the results to the page.
-23.  Write a function that finds and returns an array of all cities from 'gotCitiesCSV' that use double vowels ('aa', 'ee', etc.). Remember to also append the results to the page.
-24.  Write a function that finds and returns an array with all cities from 'lotrCitiesArray' that end with 'or'. Remember to also append the results to the page.
-25.  Write a function that finds and returns an array with all the words in 'bestThing' that start with a 'b'. Remember to also append the results to the page.
-26.  Write a function that returns 'Yes' or 'No' if 'lotrCitiesArray' includes 'Mirkwood'. Remember to also append the results to the page.
-27.  Write a function that returns 'Yes' or 'No' if 'lotrCitiesArray' includes 'Hollywood'. Remember to also append the results to the page.
-28.  Write a function that returns the index of 'Mirkwood' in 'lotrCitiesArray'. Remember to also append the results to the page.
-29.  Write a function that finds and returns the first city in 'lotrCitiesArray' that has more than one word. Remember to also append the results to the page.
-30.  Write a function that reverses the order of 'lotrCitiesArray' and returns the new array. Remember to also append the results to the page.
-31.  Write a function that sorts 'lotrCitiesArray' alphabetically and returns the new array. Remember to also append the results to the page.
-32.  Write a function that sorts 'lotrCitiesArray' by the number of characters in each city (i.e., shortest city names go first) and return the new array. Remember to also append the results to the page.
+1. Escreva uma função que encontre e retorne o índice de 'only' em 'bestThing'. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que encontre e retorne o índice da última palavra de 'bestThing'. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que encontre e retorne um array de todas as cidades de 'gotCitiesCSV' que tiverem vogais duplicadas ('aa', 'ee', etc.). Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que encontre e retorne um array com todas as cidades de 'lotrCitiesArray' que terminem em 'or'. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que encontre e retorne um array com todas as palavras de 'bestThing' começando com 'b'. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que retorne 'Sim' ou 'Não' se 'lotrCitiesArray' incluir 'Mirkwood'. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que retorne 'Sim' ou 'Não' se 'lotrCitiesArray' incluir 'Hollywood'. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que retorne o índice de 'Mirkwood' em 'lotrCitiesArray'. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que encontre e retorne a primeira cidade de 'lotrCitiesArray' que tiver mais de uma palavra. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que inverta a ordem de 'lotrCitiesArray' e retorne o novo array. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que ordene 'lotrCitiesArray' alfabeticamente e retorne o novo array. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que ordene 'lotrCitiesArray' pelo número de caracteres em cada cidade (por exemplo, a cidade mais curta aparece primeiro) e retorne o novo array. Lembre-se de também adicionar os resultados à página.
 
+### Envio
 
-
-
-
-### Submission ###
-
-Push and deploy your code to Gitlab. Add KA_Grading as a member on your project with "Reporter" permission, and submit your gitlab pages url (Ex: https://username.gitlab.io/katas4).
-
+Faça o push e implemente seu código no Gitlab. Adicione grupo ka-br-correcoes como membro do seu projeto com a permissão "Reporter", e envie a url do seu gitlab pages (Ex: https://nomedeusuário.gitlab.io/katas4).
