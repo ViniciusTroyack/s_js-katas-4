@@ -6,6 +6,8 @@ Um [kata](https://en.wikipedia.org/wiki/Kata_(programming)) é um exercício ind
 
 Você criará uma única página para exibir o resultado de cada uma de suas funções com um cabeçalho identificando cada exercício individual seguido de sua solução. **Todos os resultados dos katas individuais precisam ser exibidos usando `document.createElement()` e métodos associados.** Depois de adicionar o resultado da sua função à página, cada função deve usar a sentença 'return' para retornar seu resultado.
 
+*Dê o nome 'katas4' ao seu repositório e 'katas4.js' ao seu arquivo Javascript; além disso, suas funções devem ter os nomes kata1(), kata2(), kata3(), etc. Isso permitirá que nossos testes encontrem suas funções*
+
 Dica: Ao exibir um array, use `JSON.stringify()` para 'embelezar' o resultado. Por exemplo, digamos que você usou `document.createElement()` e o armazenou em uma variável chamada `newElement`. Para exibir o `lotrCitiesArray` neste elemento, você pode chamar:
 
 ```js
