@@ -10,4 +10,4 @@ function kata1() {
 
 // kata1();
 
-// 
+// daqui em diante é contigo
