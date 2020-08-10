@@ -95,4 +95,4 @@ Vários destes katas usarão a seguinte amostra de variáveis, que já estarão 
 
 ## Envio
 
-Faça o push e implemente seu código no Gitlab. Adicione grupo `ka-br-<sua-turma>-correcoes` como membro do seu projeto com a permissão "Reporter", e envie a url do seu gitlab pages (Ex: https://nomedeusuario.gitlab.io/katas4).
+Faça o push e implemente seu código no Gitlab. Adicione grupo `ka-br-<sua-turma>-correcoes` como membro do seu projeto com a permissão "Reporter", e **envie a url do seu gitlab pages (Ex: https://nomedeusuario.gitlab.io/s\_js-katas-4/).**
