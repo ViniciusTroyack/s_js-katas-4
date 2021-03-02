@@ -1,4 +1,4 @@
-# Entrega: Katas de JavaScript 4
+# Extra: Katas de JavaScript 4
 
 ## Visão Geral
 
