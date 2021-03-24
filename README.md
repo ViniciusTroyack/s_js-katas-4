@@ -63,7 +63,7 @@ Vários destes katas usarão a seguinte amostra de variáveis, que já estarão 
 11. Escreva uma função que use 'splice' para renomear 'Dead Marshes' para 'Deadest Marshes' em 'lotrCitiesArray' e retorne o novo 'lotrCitiesArray' modificado. Lembre-se de também adicionar os resultados à página.
 12. Escreva uma função que usa 'slice' para retornar uma string com os primeiros 14 caracteres de 'bestThing'.  Lembre-se de também adicionar os resultados à página.
 13. Escreva uma função que usa 'slice' para retornar uma string com os 12 últimos caracteres de 'bestThing'. Lembre-se de também adicionar os resultados à página.
-14. Escreva uma função que usa 'slice' para retornar uma string com os caracteres entre as posições 23 e 38 de 'bestThing' (ou seja, 'booleano é par'). Lembre-se de também adicionar os resultados à página.
+14. Escreva uma função que usa 'slice' para retornar uma string com os caracteres entre as posições 23 e 38 de 'bestThing'. Lembre-se de também adicionar os resultados à página.
 15. Escreva uma função que faz exatamente a mesma coisa que a #13 mas use o método 'substring' em vez de 'slice'. Lembre-se de também adicionar os resultados à página.
 16. Escreva uma função que faça exatamente a mesma coisa que o #14 mas use o método 'substring' em vez de 'slice'. Lembre-se de também adicionar os resultados à página.
 17. Escreva uma função que use 'pop' para remover a última cidade de 'lotrCitiesArray e retorne o novo array. Lembre-se de também adicionar os resultados à página.
