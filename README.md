@@ -38,9 +38,9 @@ Não se esqueça de chamar sua função depois de defini-la!
 kata0();
 ```
 
-Pode ser uma boa ideia escrever uma função auxiliar que é chamada de dentro de uma função kata, que, por sua vez, poderia ser responsável por cuidar da criação de novos elementos, atribuindo texto/conteúdo aos novos elementos e em seguida adicionando-os à página. Entretanto, isso não é necessário.
+Faça como no Kata 3 e crie uma função chamada "showResults" que receba o resultado por parâmetro e mostre o valor no seu DOM.
 
-Vários destes katas usarão a seguinte amostra de variáveis, que já estarão disponíveis para você:
+Os katas usarão a seguinte amostra de variáveis, que já estarão disponíveis para você. **A idéia é que você altere essas variáveis durante o desenvolvimento dos Katas, NÃO se preocupe em fazer cópias seguras dos arrays.**:
 
 `const gotCitiesCSV = "King's Landing,Braavos,Volantis,Old Valyria,Free Cities,Qarth,Meereen";`
 
