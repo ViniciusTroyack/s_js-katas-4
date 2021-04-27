@@ -50,48 +50,48 @@ Os katas usarão a seguinte amostra de variáveis, que já estarão disponíveis
 
 ## Katas
 
-1. Escreva uma função que retorna um array com as cidades em 'gotCitiesCSV'. Lembre-se de também adicionar os resultados à página.
-2. Escreva uma função que retorna um array das palavras na frase contida em 'bestThing'. Lembre-se de também adicionar os resultados à página.
-3. Escreva uma função que retorna uma string separada por ponto-e-vírgulas em vez das vírgulas de 'gotCitiesCSV'. Lembre-se de também adicionar os resultados à página.
-4. Escreva uma função que retorne uma string CSV (separada por vírgulas) de 'lotrCitiesArray'. Lembre-se de também adicionar os resultados à página.
-5. Escreva uma função que retorna um array com as 5 primeiras cidades de 'lotrCitiesArray'. Lembre-se de também adicionar os resultados à página.
-6. Escreva uma função que retorna um array com as 5 últimas cidades de 'lotrCitiesArray'. Lembre-se de também adicionar os resultados à página.
-7. Escreva uma função que retorna um array contendo da 3ª a 5ª cidades de 'lotrCitiesArray'. Lembre-se de também adicionar os resultados à página.
-8. Escreva uma função que use 'splice' para remover 'Rohan' de 'lotrCitiesArray' e retorne o novo 'lotrCitiesArray' modificado. Lembre-se de também adicionar os resultados à página.
-9. Escreva uma função que use 'splice' para remover todas as cidades depois de 'Dead Marshes' de 'lotrCitiesArray' e retorne o novo 'lotrCitiesArray' modificado. Lembre-se de também adicionar os resultados à página.
-10. Escreva uma função que use 'splice' para adicionar 'Rohan' de volta ao 'lotrCitiesArray' logo depois de 'Gondor' e retorne o novo 'lotrCitiesArray' modificado. Lembre-se de também adicionar os resultados à página.
-11. Escreva uma função que use 'splice' para renomear 'Dead Marshes' para 'Deadest Marshes' em 'lotrCitiesArray' e retorne o novo 'lotrCitiesArray' modificado. Lembre-se de também adicionar os resultados à página.
-12. Escreva uma função que usa 'slice' para retornar uma string com os primeiros 14 caracteres de 'bestThing'.  Lembre-se de também adicionar os resultados à página.
-13. Escreva uma função que usa 'slice' para retornar uma string com os 12 últimos caracteres de 'bestThing'. Lembre-se de também adicionar os resultados à página.
-14. Escreva uma função que usa 'slice' para retornar uma string com os caracteres entre as posições 23 e 38 de 'bestThing'. Lembre-se de também adicionar os resultados à página.
-15. Escreva uma função que faz exatamente a mesma coisa que a #13 mas use o método 'substring' em vez de 'slice'. Lembre-se de também adicionar os resultados à página.
-16. Escreva uma função que faça exatamente a mesma coisa que o #14 mas use o método 'substring' em vez de 'slice'. Lembre-se de também adicionar os resultados à página.
-17. Escreva uma função que use 'pop' para remover a última cidade de 'lotrCitiesArray e retorne o novo array. Lembre-se de também adicionar os resultados à página.
-18. Escreva uma função que usa 'push' para adicionar de volta, no final do array, a cidade de 'lotrCitiesArray' que foi removida no #17 e retorne o novo array. Lembre-se de também adicionar os resultados à página.
-19. Escreva uma função que usa 'shift' para remover a primeira cidade de 'lotrCitiesArray e retorne o novo array. Lembre-se de também adicionar os resultados à página.
-20. Escreva uma função que use 'unshift' para adicionar de volta, no começo do array, a cidade de 'lotrCitiesArray' que foi removida no #19 e retorne o novo array. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que **retorna** um array com as cidades em 'gotCitiesCSV'. Lembre-se de também **adicionar os resultados à página**.
+2. Escreva uma função que **retorna** um array das palavras na frase contida em 'bestThing'. Lembre-se de também **adicionar os resultados à página**.
+3. Escreva uma função que **retorna** uma string separada por ponto-e-vírgulas em vez das vírgulas de 'gotCitiesCSV'. Lembre-se de também **adicionar os resultados à página**.
+4. Escreva uma função que **retorne** uma string CSV (separada por vírgulas) de 'lotrCitiesArray'. Lembre-se de também **adicionar os resultados à página**.
+5. Escreva uma função que **retorna** um array com as 5 primeiras cidades de 'lotrCitiesArray'. Lembre-se de também **adicionar os resultados à página**.
+6. Escreva uma função que **retorna** um array com as 5 últimas cidades de 'lotrCitiesArray'. Lembre-se de também **adicionar os resultados à página**.
+7. Escreva uma função que **retorna** um array contendo da 3ª a 5ª cidades de 'lotrCitiesArray'. Lembre-se de também **adicionar os resultados à página**.
+8. Escreva uma função que use 'splice' para remover 'Rohan' de 'lotrCitiesArray' e **retorne** o novo 'lotrCitiesArray' modificado. Lembre-se de também **adicionar os resultados à página**.
+9. Escreva uma função que use 'splice' para remover todas as cidades depois de 'Dead Marshes' de 'lotrCitiesArray' e **retorne** o novo 'lotrCitiesArray' modificado. Lembre-se de também **adicionar os resultados à página**.
+10. Escreva uma função que use 'splice' para adicionar 'Rohan' de volta ao 'lotrCitiesArray' logo depois de 'Gondor' e **retorne** o novo 'lotrCitiesArray' modificado. Lembre-se de também **adicionar os resultados à página**.
+11. Escreva uma função que use 'splice' para renomear 'Dead Marshes' para 'Deadest Marshes' em 'lotrCitiesArray' e **retorne** o novo 'lotrCitiesArray' modificado. Lembre-se de também **adicionar os resultados à página**.
+12. Escreva uma função que usa 'slice' para **retornar** uma string com os primeiros 14 caracteres de 'bestThing'.  Lembre-se de também **adicionar os resultados à página**.
+13. Escreva uma função que usa 'slice' para **retornar** uma string com os 12 últimos caracteres de 'bestThing'. Lembre-se de também **adicionar os resultados à página**.
+14. Escreva uma função que usa 'slice' para **retornar** uma string com os caracteres entre as posições 23 e 38 de 'bestThing'. Lembre-se de também **adicionar os resultados à página**.
+15. Escreva uma função que faz exatamente a **mesma coisa que a #13** mas use o método 'substring' em vez de 'slice'. Lembre-se de também **adicionar os resultados à página**.
+16. Escreva uma função que faça exatamente a **mesma coisa que o #14** mas use o método 'substring' em vez de 'slice'. Lembre-se de também **adicionar os resultados à página**.
+17. Escreva uma função que use 'pop' para remover a última cidade de 'lotrCitiesArray e **retorne** o novo array. Lembre-se de também **adicionar os resultados à página**.
+18. Escreva uma função que usa 'push' para adicionar de volta, no final do array, a cidade de 'lotrCitiesArray' que foi removida no #17 e **retorne** o novo array. Lembre-se de também **adicionar os resultados à página**.
+19. Escreva uma função que usa 'shift' para remover a primeira cidade de 'lotrCitiesArray e **retorne** o novo array. Lembre-se de também **adicionar os resultados à página**.
+20. Escreva uma função que use 'unshift' para adicionar de volta, no começo do array, a cidade de 'lotrCitiesArray' que foi removida no #19 e **retorne** o novo array. Lembre-se de também **adicionar os resultados à página**.
 
 # Requisitos
 
 1. Cada função deve exibir um resultado em uma página.
-2. Cada função deve retornar um valor.
+2. Cada função deve **retornar** um valor.
 3. Cada função deve ter o nome `kata1()`, `kata2()` e assim por diante.
 4. Seu arquivo deve ter o nome `katas4.js`
 
 # Bônus Opcional (6 pts)
 
-1. Escreva uma função que encontre e retorne o índice de 'only' em 'bestThing'. Lembre-se de também adicionar os resultados à página.
-2. Escreva uma função que encontre e retorne o índice da última palavra de 'bestThing'. Lembre-se de também adicionar os resultados à página.
-3. Escreva uma função que encontre e retorne um array de todas as cidades de 'gotCitiesCSV' que tiverem vogais duplicadas ('aa', 'ee', etc.). Lembre-se de também adicionar os resultados à página.
-4. Escreva uma função que encontre e retorne um array com todas as cidades de 'lotrCitiesArray' que terminem em 'or'. Lembre-se de também adicionar os resultados à página.
-5. Escreva uma função que encontre e retorne um array com todas as palavras de 'bestThing' começando com 'b'. Lembre-se de também adicionar os resultados à página.
-6. Escreva uma função que retorne 'Sim' ou 'Não' se 'lotrCitiesArray' incluir 'Mirkwood'. Lembre-se de também adicionar os resultados à página.
-7. Escreva uma função que retorne 'Sim' ou 'Não' se 'lotrCitiesArray' incluir 'Hollywood'. Lembre-se de também adicionar os resultados à página.
-8. Escreva uma função que retorne o índice de 'Mirkwood' em 'lotrCitiesArray'. Lembre-se de também adicionar os resultados à página.
-9. Escreva uma função que encontre e retorne a primeira cidade de 'lotrCitiesArray' que tiver mais de uma palavra. Lembre-se de também adicionar os resultados à página.
-10. Escreva uma função que inverta a ordem de 'lotrCitiesArray' e retorne o novo array. Lembre-se de também adicionar os resultados à página.
-11. Escreva uma função que ordene 'lotrCitiesArray' alfabeticamente e retorne o novo array. Lembre-se de também adicionar os resultados à página.
-12. Escreva uma função que ordene 'lotrCitiesArray' pelo número de caracteres em cada cidade (por exemplo, a cidade mais curta aparece primeiro) e retorne o novo array. Lembre-se de também adicionar os resultados à página.
+1. Escreva uma função que encontre e **retorne** o índice de 'only' em 'bestThing'. Lembre-se de também **adicionar os resultados à página**.
+2. Escreva uma função que encontre e **retorne** o índice da última palavra de 'bestThing'. Lembre-se de também **adicionar os resultados à página**.
+3. Escreva uma função que encontre e **retorne** um array de todas as cidades de 'gotCitiesCSV' que tiverem vogais duplicadas ('aa', 'ee', etc.). Lembre-se de também **adicionar os resultados à página**.
+4. Escreva uma função que encontre e **retorne** um array com todas as cidades de 'lotrCitiesArray' que terminem em 'or'. Lembre-se de também **adicionar os resultados à página**.
+5. Escreva uma função que encontre e **retorne** um array com todas as palavras de 'bestThing' começando com 'b'. Lembre-se de também **adicionar os resultados à página**.
+6. Escreva uma função que **retorne** 'Sim' ou 'Não' se 'lotrCitiesArray' incluir 'Mirkwood'. Lembre-se de também **adicionar os resultados à página**.
+7. Escreva uma função que **retorne** 'Sim' ou 'Não' se 'lotrCitiesArray' incluir 'Hollywood'. Lembre-se de também **adicionar os resultados à página**.
+8. Escreva uma função que **retorne** o índice de 'Mirkwood' em 'lotrCitiesArray'. Lembre-se de também **adicionar os resultados à página**.
+9. Escreva uma função que encontre e **retorne** a primeira cidade de 'lotrCitiesArray' que tiver mais de uma palavra. Lembre-se de também **adicionar os resultados à página**.
+10. Escreva uma função que inverta a ordem de 'lotrCitiesArray' e **retorne** o novo array. Lembre-se de também **adicionar os resultados à página**.
+11. Escreva uma função que ordene 'lotrCitiesArray' alfabeticamente e **retorne** o novo array. Lembre-se de também **adicionar os resultados à página**.
+12. Escreva uma função que ordene 'lotrCitiesArray' pelo número de caracteres em cada cidade (por exemplo, a cidade mais curta aparece primeiro) e **retorne** o novo array. Lembre-se de também **adicionar os resultados à página**.
 
 ## Envio
 
