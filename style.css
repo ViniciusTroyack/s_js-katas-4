@@ -1,1 +1,11 @@
-/* você pode estilizar se quiser !!! */
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+h3{
+    border-top: solid black 1px;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+}
+
